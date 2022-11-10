@@ -1,0 +1,11 @@
+.member{
+  background: #F5F6F7;
+}
+
+.member__container{
+  gap: 100px;
+}
+
+.member__title{
+  color: #0f5edb;
+}

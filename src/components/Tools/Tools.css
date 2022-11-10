@@ -1,0 +1,30 @@
+.tools{
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0f5edb;
+}      
+
+.tools__container{
+  max-width: 100%;
+  display: flex;
+  gap: 45px;
+  margin-bottom: 50px;
+}
+
+.tools__title{
+  margin:0; 
+  margin-bottom: 50px;
+  align-self: start;
+  padding-left: 40px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: white;
+  
+}

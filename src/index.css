@@ -1,0 +1,21 @@
+@import url('./vendors/normalize.css');
+@import url('./utils/fonts/fonts.css');
+@import url('./components/Header/Header.css');
+@import url('./components/Nav/Nav.css');
+@import url('./components/About/About.css');
+@import url('./components/Tools/Tools.css');
+@import url('./components/Card/Card.css');
+@import url('./components/Member/Member.css');
+@import url('./components/Avatar/Avatar.css');
+@import url('./components/Footer/Footer.css');
+@import url('./components/Selection/Selection.css');
+@import url('./components/Country/Country.css');
+@import url('./components/Dashboard/Dashboard.css');
+
+body {
+  margin: 0;
+  width : 100%;
+  box-sizing: border-box;
+}
+
+

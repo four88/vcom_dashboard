@@ -1,0 +1,28 @@
+.nav__menu{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.nav__link{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1A1B22;
+  transition-duration: 0.3s;
+}
+
+
+.nav__link:hover{
+  color: #0f5edb;
+}

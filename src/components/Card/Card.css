@@ -1,0 +1,50 @@
+.card{
+  width : 250px;
+  height: 300px;
+  background: white; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px; 
+}
+
+.card__img{
+  width: 100px;
+  height: 100px;
+}
+
+.card__content{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card__title{
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 133%;
+  margin: 0;
+  color: #0f5edb;
+ 
+}
+
+
+.card__desc{
+  max-width: 100%;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 133%;
+  color: #1A1B22;
+ 
+}
+
