@@ -1,0 +1,55 @@
+.docs{
+  width: 1200px;
+  margin: auto;
+}
+
+.docs__section{
+  width: 900px;
+  margin: auto;
+  margin-bottom: 60px
+}
+
+
+.docs__heading{
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 133%;
+  margin: 0;
+  background: #F5F6F7;
+  color: #0f5edb; 
+}
+
+.docs__content{
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1A1B22;
+
+}
+
+.docs__img{
+  width: 1200px;
+  margin: auto;
+  background: white;
+  margin-bottom: 60px;
+}
+
+
+.docs__img_azure{
+  width: 100%;
+  margin: auto;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.docs__code{
+  background: #ededed;
+  color: #8b0000;
+}

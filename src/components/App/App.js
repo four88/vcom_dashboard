@@ -1,15 +1,17 @@
+import React from 'react';
 import Header from '../Header/Header';
 import About from '../About/About';
 import Tools from '../Tools/Tools';
 import Card from '../Card/Card';
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Member from '../Member/Member';
 import Avatar from '../Avatar/Avatar';
 import Footer from '../Footer/Footer';
-// import Main from '../Main/Main';
+import Main from '../Main/Main';
 import Selection from '../Selection/Selection';
 import Country from '../Country/Country';
 import Dashboard from '../Dashboard/Dashboard';
+import Documentation from '../Documentation/Documentation';
 import biImg from '../../images/bi.svg';
 import pyImg from '../../images/python.png';
 import azureImg from '../../images/azure.png';
@@ -19,8 +21,6 @@ import tjImg from '../../images/tj.png';
 import fourImg from '../../images/four.png';
 
 export default function App() {
-
-  const history = useHistory();
 
   const cardInfo = [
     {
@@ -64,13 +64,8 @@ export default function App() {
     },
   ]
 
-  const handleCountryClick = (path) => {
-    history.push(`/dashboard/${path}`)
-  }
-
   return (
     <Switch>
-
       <Route exact path='/'>
         <Header heading="About Project" />
         <About />
@@ -99,46 +94,62 @@ export default function App() {
         <Footer />
       </Route>
 
+      <Route path='/docs'>
+        <Header heading="Documentation" />
+        <Main>
+          <Documentation />
+        </Main>
+        <Footer />
+      </Route>
+
       <Route path='/dashboard'>
         <Header heading="Dashboard" />
         <Selection>
           <Country
             country="United Kingdom"
-            toPath="/dashboard/uk"
+            toPath="/dashboard"
           />
           <Country
             country="USA"
             toPath="/dashboard/usa"
           />
           <Country
-            country="Nigeria"
-            toPath="/dashboard/nigeria"
+            country="Spain"
+            toPath="/dashboard/spain"
           />
         </Selection>
 
-        <Route path='/dashboard/uk'>
+        <Route exact path='/dashboard'>
           <Dashboard country="United Kingdom">
-            United Kingdom's Dashboard
+            <iframe title="Dashboard" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=d696d07e-93ff-42fd-8a76-8968ad4716f6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
+          <Main title="Report">
+            Based on the results of the sentiment analysis, it can be deduced that Twitter users from the United Kingdom are skewed towards negative tweets with counts taking as much as 59.52%. Top keywords from the analysis also support this deduction
+          </Main>
         </Route>
 
         <Route path='/dashboard/usa'>
           <Dashboard country="United State of America">
-            USA's Dashboard
+            <iframe title="Dashboard USA" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=46376b84-294c-4a9c-a680-5785e41275bd&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
+          <Main title="Report">
+            USA's content
+          </Main>
         </Route>
 
-        <Route path='/dashboard/nigeria'>
-          <Dashboard country="Nigeria">
-            Nigeria's Dashboard
+        <Route path='/dashboard/spain'>
+          <Dashboard country="Spain">
+            <iframe title="Dashboard Spain" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=745c8713-494f-4ae3-9cd4-c6a9250013a6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
+          <Main title="Report">
+            Spain's content
+          </Main>
         </Route>
         <Footer />
 
       </Route>
-    </Switch>
 
-
+    </Switch >
 
   );
 }

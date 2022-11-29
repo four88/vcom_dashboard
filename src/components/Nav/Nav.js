@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 export default function Nav() {
 
@@ -15,7 +16,11 @@ export default function Nav() {
             Dashboard
           </Link>
         </li>
-
+        <li className="nav__list">
+          <Link className="nav__link" to="/docs">
+            Documentation
+          </Link>
+        </li>
       </ul>
     </nav>
   )

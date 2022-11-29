@@ -11,6 +11,8 @@
 @import url('./components/Selection/Selection.css');
 @import url('./components/Country/Country.css');
 @import url('./components/Dashboard/Dashboard.css');
+@import url('./components/Main/Main.css');
+@import url('./components/Documentation/Documentation.css');
 
 body {
   margin: 0;

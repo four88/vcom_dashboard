@@ -1,4 +1,5 @@
 import Nav from '../Nav/Nav';
+import React from 'react';
 
 export default function Header({
   heading

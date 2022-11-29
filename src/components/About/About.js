@@ -1,5 +1,6 @@
 import aboutImg from '../../images/about.png';
 import { useHistory } from 'react-router-dom';
+import React from 'react';
 
 export default function About() {
 
