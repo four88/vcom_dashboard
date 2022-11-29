@@ -258,7 +258,7 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
       </section>
 
       <section className="docs__section">
-        <h2 classsName="docs__heading">
+        <h2 className="docs__heading">
           Sentiment Analysis
         </h2>
         <p className="docs__content">
