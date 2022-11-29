@@ -181,6 +181,20 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
         <p className="docs__content">
           To start the implementation, the Azure account is required. After that, create the resource group. Then generate Language service as part of the Cognitive service since it is crucial in the Sentiment Analysis and Keyphrases Extraction stage.
         </p>
+        <p className='docs__content'>
+          1. Clone this reposity
+        </p>
+        <CodeBlock
+          code={`$ git clone https://github.com/four88/Vcomms_twitter.git`}
+          lang='shell'
+        />
+        <p className='docs__content'>
+          2. Move to the directory of this folder and rn the below command
+        </p>
+        <CodeBlock
+          code={`$ pip install -r requirement.txt`}
+          lang='shell'
+        />
       </section>
 
       <section className="docs__section">
