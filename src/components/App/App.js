@@ -121,7 +121,7 @@ export default function App() {
 
         <Route exact path='/dashboard'>
           <Dashboard country="United Kingdom">
-            <iframe title="Dashboard" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=d696d07e-93ff-42fd-8a76-8968ad4716f6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
+            <iframe title="Dashboard UK" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=40c6a97b-1356-47e6-b75e-d494fd40eea4&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
           <Main title="Report">
             Based on the results of the sentiment analysis, it can be deduced that Twitter users from the United Kingdom are skewed towards negative tweets with counts taking as much as 59.52%. Top keywords from the analysis also support this deduction
@@ -139,7 +139,7 @@ export default function App() {
 
         <Route path='/dashboard/spain'>
           <Dashboard country="Spain">
-            <iframe title="Dashboard Spain" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=745c8713-494f-4ae3-9cd4-c6a9250013a6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
+            <iframe title="Dashboard Spain" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=8ba28e29-3bdf-46e8-921c-414b167149f6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
           <Main title="Report">
             Spain's content
