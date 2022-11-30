@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
   },
   {
-    "revision": "87284894879f5b1c229cb49c8ff6decc",
-    "url": "/vcom_dashboard/static/media/roboto-500.87284894.woff"
-  },
-  {
     "revision": "60fa3c0614b8fb2f394fa29944c21540",
     "url": "/vcom_dashboard/static/media/roboto-400-regular.60fa3c06.woff"
+  },
+  {
+    "revision": "87284894879f5b1c229cb49c8ff6decc",
+    "url": "/vcom_dashboard/static/media/roboto-500.87284894.woff"
   },
   {
     "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
