@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a08b7bbf4b51877d288",
+    "revision": "ddfaea9659ecb120d044",
     "url": "/vcom_dashboard/static/css/main.9e5ce560.chunk.css"
   },
   {
-    "revision": "8a08b7bbf4b51877d288",
-    "url": "/vcom_dashboard/static/js/main.8a08b7bb.chunk.js"
+    "revision": "ddfaea9659ecb120d044",
+    "url": "/vcom_dashboard/static/js/main.ddfaea96.chunk.js"
   },
   {
     "revision": "c9a6f9f9ed72b920e1bc",
@@ -60,8 +60,16 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/four.6fa3bb72.png"
   },
   {
+    "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
+    "url": "/vcom_dashboard/static/media/roboto-900.bb1e4dc6.woff"
+  },
+  {
     "revision": "41e86578ed11f2de28bc5e90b5b322f2",
     "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
+  },
+  {
+    "revision": "28fdd9b8091dc170ba414b656f2bac8c",
+    "url": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff"
   },
   {
     "revision": "60fa3c0614b8fb2f394fa29944c21540",
@@ -72,15 +80,7 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/roboto-500.87284894.woff"
   },
   {
-    "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
-    "url": "/vcom_dashboard/static/media/roboto-900.bb1e4dc6.woff"
-  },
-  {
-    "revision": "28fdd9b8091dc170ba414b656f2bac8c",
-    "url": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff"
-  },
-  {
-    "revision": "b05018339da55ecb917019151081d8ae",
+    "revision": "c14c9af2d7784350d79f9fab5e58d666",
     "url": "/vcom_dashboard/index.html"
   }
 ];
