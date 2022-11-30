@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/four88/vcom_dashboard/precache-manifest.14a103faa2ff347f81dfaf5bd7081b2b.js"
+  "/vcom_dashboard/precache-manifest.cbe9771522a12ce8dfe170e3d1be17fe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/four88/vcom_dashboard/index.html", {
+workbox.routing.registerNavigationRoute("/vcom_dashboard/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
