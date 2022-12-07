@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "023a721a2b2b445aee6d",
+    "revision": "93bbf19f3c0d0b859241",
     "url": "/vcom_dashboard/static/css/main.9e5ce560.chunk.css"
   },
   {
-    "revision": "023a721a2b2b445aee6d",
-    "url": "/vcom_dashboard/static/js/main.023a721a.chunk.js"
+    "revision": "93bbf19f3c0d0b859241",
+    "url": "/vcom_dashboard/static/js/main.93bbf19f.chunk.js"
   },
   {
     "revision": "c9a6f9f9ed72b920e1bc",
@@ -60,16 +60,12 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/four.6fa3bb72.png"
   },
   {
-    "revision": "60fa3c0614b8fb2f394fa29944c21540",
-    "url": "/vcom_dashboard/static/media/roboto-400-regular.60fa3c06.woff"
+    "revision": "41e86578ed11f2de28bc5e90b5b322f2",
+    "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
   },
   {
     "revision": "87284894879f5b1c229cb49c8ff6decc",
     "url": "/vcom_dashboard/static/media/roboto-500.87284894.woff"
-  },
-  {
-    "revision": "41e86578ed11f2de28bc5e90b5b322f2",
-    "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
   },
   {
     "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
@@ -80,7 +76,11 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff"
   },
   {
-    "revision": "e2bbb9cfe8f1e74686a0bfc2b83d78dd",
+    "revision": "60fa3c0614b8fb2f394fa29944c21540",
+    "url": "/vcom_dashboard/static/media/roboto-400-regular.60fa3c06.woff"
+  },
+  {
+    "revision": "7cb91e51828755a3cb9a160168dccc8d",
     "url": "/vcom_dashboard/index.html"
   }
 ];
