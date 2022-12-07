@@ -442,7 +442,7 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
           In the case of an error occurring while running <code className="docs__code">sentiment.py</code>. The recommendation is to separate the CSV file used for sentiment analysis into two parts before running <code className='docs__code'>sentiment.py</code> using <code className="docs__code">splitDataframe.py</code>. To do so, open the file with the text editor and edit line 3 to the data that wants to be split. Next, move to the last 2 lines of code to edit the output name.
         </p>
         <CodeBlock
-          code={codes[4]}
+          code={codes[5]}
           lang='python'
         />
         <p className='docs__content'>
@@ -456,7 +456,7 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
           Notedly, if the user uses <code className='docs__code'>splitDataframe.py</code> before running the Sentiment analysis, then there is the need to use <code className='docs__code'>combineDataframe.py</code> to combine 2 CSV files into 1 CSV file before running <code className='docs__code'>separateResult.py</code>. To do so, open <code className='docs__code'>combineDataframe.py</code> with the text editor, edit line 5 and line 8 of the file that wants to be combined. Then edit the final line of the file name.
         </p>
         <CodeBlock
-          code={codes[5]}
+          code={codes[6]}
           lang='python'
         />
 
