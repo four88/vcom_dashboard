@@ -353,7 +353,7 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
         />
         <p className='docs__content'>
           Then the CSV file will appear and is ready for analytics
-          The table contains ten columns
+          The table contains nine columns
         </p>
         <ul className='docs__lists'>
           <li className='docs__list'>
@@ -377,12 +377,6 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
             </p>
           </li>
 
-          <li className='docs__list'>
-            <p className='docs__content'>
-              <code className='docs__code'>location </code>
-              location of tweet
-            </p>
-          </li>
 
           <li className='docs__list'>
             <p className='docs__content'>
