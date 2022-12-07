@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ddfaea9659ecb120d044",
+    "revision": "023a721a2b2b445aee6d",
     "url": "/vcom_dashboard/static/css/main.9e5ce560.chunk.css"
   },
   {
-    "revision": "ddfaea9659ecb120d044",
-    "url": "/vcom_dashboard/static/js/main.ddfaea96.chunk.js"
+    "revision": "023a721a2b2b445aee6d",
+    "url": "/vcom_dashboard/static/js/main.023a721a.chunk.js"
   },
   {
     "revision": "c9a6f9f9ed72b920e1bc",
@@ -60,18 +60,6 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/four.6fa3bb72.png"
   },
   {
-    "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
-    "url": "/vcom_dashboard/static/media/roboto-900.bb1e4dc6.woff"
-  },
-  {
-    "revision": "41e86578ed11f2de28bc5e90b5b322f2",
-    "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
-  },
-  {
-    "revision": "28fdd9b8091dc170ba414b656f2bac8c",
-    "url": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff"
-  },
-  {
     "revision": "60fa3c0614b8fb2f394fa29944c21540",
     "url": "/vcom_dashboard/static/media/roboto-400-regular.60fa3c06.woff"
   },
@@ -80,7 +68,19 @@ self.__precacheManifest = [
     "url": "/vcom_dashboard/static/media/roboto-500.87284894.woff"
   },
   {
-    "revision": "c14c9af2d7784350d79f9fab5e58d666",
+    "revision": "41e86578ed11f2de28bc5e90b5b322f2",
+    "url": "/vcom_dashboard/static/media/inter-400-regular.41e86578.woff"
+  },
+  {
+    "revision": "bb1e4dc6333675d11ada2e857e7f95d7",
+    "url": "/vcom_dashboard/static/media/roboto-900.bb1e4dc6.woff"
+  },
+  {
+    "revision": "28fdd9b8091dc170ba414b656f2bac8c",
+    "url": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff"
+  },
+  {
+    "revision": "e2bbb9cfe8f1e74686a0bfc2b83d78dd",
     "url": "/vcom_dashboard/index.html"
   }
 ];
