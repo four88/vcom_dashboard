@@ -167,6 +167,7 @@ result.to_csv('spain_sentimentCombinedResult.csv')`
           <li className="docs__list">Data cleansing</li>
           <li className="docs__list">Sentiment analysis (using Azure Cognitive Service)</li>
           <li className="docs__list">Result Categorisation (Positive, Negative, Neutral)</li>
+          <li className="docs__list">Keyphrases extraction (using Azure Cognative Service)</li>
         </ul>
       </section>
 
