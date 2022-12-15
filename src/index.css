@@ -20,4 +20,11 @@ body {
   box-sizing: border-box;
 }
 
+.report{
+  width: 1200px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 133%;
+}
+
 

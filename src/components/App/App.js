@@ -123,8 +123,10 @@ export default function App() {
           <Dashboard country="United Kingdom">
             <iframe title="Dashboard UK" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=40c6a97b-1356-47e6-b75e-d494fd40eea4&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
-          <Main title="Report">
-            Based on the results of the sentiment analysis, it can be deduced that Twitter users from the United Kingdom are skewed towards negative tweets with counts taking as much as 59.52%. Top keywords from the analysis also support this deduction
+          <Main >
+            <p className='report'>
+              Top in the list of negative keywords are flood, government, climate change, land, country, storm, and rainfall. Top in the list of positive keywords are flood, river, land, project, flood resilience, drainage and government. Top in the list of mixed keywords are flood, government, safety, country, bad weather, wildlife, solution and disaster. An analysis of the tweets show that the contents of the tweet is in line with the sentiments. Also, government is a common keyword which shows people who tweeted holds the government accountable for the flood which has occured and expect so much from the government. An analysis of the sentiment shows that the negative sentiments have the highest count followed by Neutral and then positive. This is expected as flood is not pleasant and the effect is usually negative. Taking a closer look at the sentiments, the trend has been on the decrease from the begining of the period with lowest being quarter 3 of 2022 for positive, neutral and negative sentiments.
+            </p>
           </Main>
         </Route>
 
@@ -132,8 +134,10 @@ export default function App() {
           <Dashboard country="United State of America">
             <iframe title="Dashboard USA" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=46376b84-294c-4a9c-a680-5785e41275bd&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
-          <Main title="Report">
-            USA's content
+          <Main >
+            <p className='report'>
+              Top on the list of keywords which is common to positive, negative keywords is the flood. The frequency of the flood word-count is significantly much as compared to other keywords across-board. For negative keyword, top on the list following flood is storm, damage, emergency, rainfall, climate change, government and business. For positive keywords, top on the list of the keywords is media, insurance, air ambulance, project, report, government, debris and drainage. For neutral keywords, top on the list are warning,report, new, update, location, safety and flood alert. An anlysis of the tweets shows that the content is in line with the sentiment. For the sentiment result analysis, the counts for negative, positive and neutral are very close percentage wise with negative having 34%, positive 34% and neutral 31%. For the period under review, the sentiment counts per quarter has not had a regular partern all through the period
+            </p>
           </Main>
         </Route>
 
@@ -141,8 +145,10 @@ export default function App() {
           <Dashboard country="Spain">
             <iframe title="Dashboard Spain" width="100%" height="100%" src="https://app.powerbi.com/reportEmbed?reportId=8ba28e29-3bdf-46e8-921c-414b167149f6&autoAuth=true&ctid=e757cfdd-1f35-4457-af8f-7c9c6b1437e3" frameborder="0" allowFullScreen="true"></iframe>
           </Dashboard>
-          <Main title="Report">
-            Spain's content
+          <Main>
+            <p className='report'>
+              For the keywords, flood is top on the list and common to negative, positive and neutral keywords. For negative keywords, top on the list are damage, storm, government, climate change, rainfall and emergency. For positive keywords, top on the list are rain, people, support, media, government and wildfire.  Analysin the tweets as well, it shows that they are in line with the keywords and then sentiment. Analysing the sentiment shows that the negative sentiment is top on the list with 37% followed closely by positive sentiments with 34% and then neutral by 28%. Over the period, an analysis of the sentiments show that 2017 had the highest with the lowest being 2011.
+            </p>
           </Main>
         </Route>
         <Footer />
