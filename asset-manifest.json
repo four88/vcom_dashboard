@@ -1,7 +1,7 @@
 {
-  "main.css": "/vcom_dashboard/static/css/main.9e5ce560.chunk.css",
-  "main.js": "/vcom_dashboard/static/js/main.93bbf19f.chunk.js",
-  "main.js.map": "/vcom_dashboard/static/js/main.93bbf19f.chunk.js.map",
+  "main.css": "/vcom_dashboard/static/css/main.1422c932.chunk.css",
+  "main.js": "/vcom_dashboard/static/js/main.6cdfa51d.chunk.js",
+  "main.js.map": "/vcom_dashboard/static/js/main.6cdfa51d.chunk.js.map",
   "static/js/1.c9a6f9f9.chunk.js": "/vcom_dashboard/static/js/1.c9a6f9f9.chunk.js",
   "static/js/1.c9a6f9f9.chunk.js.map": "/vcom_dashboard/static/js/1.c9a6f9f9.chunk.js.map",
   "static/js/2.43d5ad0a.chunk.js": "/vcom_dashboard/static/js/2.43d5ad0a.chunk.js",
@@ -18,9 +18,9 @@
   "static/media/gbenga.png": "/vcom_dashboard/static/media/gbenga.8b422a4d.png",
   "static/media/tj.png": "/vcom_dashboard/static/media/tj.abd81c27.png",
   "static/media/four.png": "/vcom_dashboard/static/media/four.6fa3bb72.png",
-  "static/media/index.css": "/vcom_dashboard/static/media/roboto-400-regular.60fa3c06.woff",
-  "static/css/main.9e5ce560.chunk.css.map": "/vcom_dashboard/static/css/main.9e5ce560.chunk.css.map",
+  "static/media/index.css": "/vcom_dashboard/static/media/roboto-slab-400-regular.28fdd9b8.woff",
+  "static/css/main.1422c932.chunk.css.map": "/vcom_dashboard/static/css/main.1422c932.chunk.css.map",
   "index.html": "/vcom_dashboard/index.html",
-  "precache-manifest.67cdee7d1f437a167776a943f43c4eec.js": "/vcom_dashboard/precache-manifest.67cdee7d1f437a167776a943f43c4eec.js",
+  "precache-manifest.849eedf9ccb916c9936f15a173c337b7.js": "/vcom_dashboard/precache-manifest.849eedf9ccb916c9936f15a173c337b7.js",
   "service-worker.js": "/vcom_dashboard/service-worker.js"
 }
